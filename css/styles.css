@@ -23,7 +23,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333; }
+  background: linear-gradient(#f69d3c, #3f87a6); }
 
 body {
   display: -ms-flexbox;
@@ -33,7 +33,7 @@ body {
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); }
 
 .cover-container {
-  max-width: 42em; }
+  max-width: 50em; }
 
 /*
  * Header
@@ -77,6 +77,32 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700; }
+
+/*
+ * Body
+ */
+.cover-heading {
+  text-transform: capitalize;
+  font-size: 60;
+  margin-bottom: 3rem; }
+
+.inner {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 1rem; }
+
+.form-group {
+  float: none;
+  display: grid; }
+
+.lastResult {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 90px;
+  vertical-align: middle;
+  font-size: 25;
+  font-style: oblique;
+  border-radius: 20px; }
 
 /*
  * Footer
